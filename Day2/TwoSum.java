@@ -28,11 +28,10 @@ class TwoSum {
     for (int i = 0; i < nums.length; i++) {
       int diff = target - nums[i];
       if (map.containsKey(diff)) {
-        result[1] = i;
         result[0] = map.get(diff);
+        result[1] = i;
         return result;
       }
-      map.put(nums[i], i);
     }
     return result;
   }
