@@ -1,7 +1,9 @@
 import java.util.Stack;
 
 /* 
-Given a sorted array consisting of only integers where every element appears twice except for one element which appears once. Find this single element that appears only once.
+Given a sorted array consisting of only integers where every element 
+appears twice except for one element which appears once. 
+Find this single element that appears only once.
 */
 public class SingleElementSortedArray {
   public int singleNonDuplicate(int[] nums) {
